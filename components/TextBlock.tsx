@@ -9,7 +9,7 @@ export default function TextBlock() {
           Tell us about your project so we can find out how to exceed your
           goals. Send us an email at{" "}
           <a
-            href="#"
+            href="mailto:jerlentz@gmail.com"
             className="text-primary-rust hover:underline hover:decoration-dotted hover:underline-offset-4"
           >
             hey@nowake.studio
