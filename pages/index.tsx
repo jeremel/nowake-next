@@ -22,7 +22,7 @@ export default function Home() {
         <div className="bg-primary-white relative z-10">
           <Header />
           <TextBlock />
-          <FullScreenImage data="/bird-bay.jpg" />
+          <FullScreenImage />
         </div>
         <Footer />
       </main>
