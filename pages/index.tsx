@@ -17,9 +17,11 @@ export default function Home() {
         <link rel="icon" href="/NoWakeLogo_CircleEnclosed.png" />
       </Head>
 
-      <main className="relative bg-primary-off-white">
-        <Header />
-        <FullScreenImage data="/bird-bay.jpg" />
+      <main>
+        <div className="bg-primary-off-white relative z-10">
+          <Header />
+          <FullScreenImage data="/bird-bay.jpg" />
+        </div>
         <Footer />
       </main>
     </>
