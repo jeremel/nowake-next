@@ -2,14 +2,14 @@ import Image from "next/image";
 
 export default function FullScreenImage({ data }: any) {
   return (
-    <header className="h-full w-full">
+    <div className="h-full w-full">
       <Image
-        className=""
         src={data}
-        alt="No Wake Studio logo"
+        alt="A seagull chilling in a No Wake zone"
         width={2100}
         height={1400}
+        style={{ objectFit: "cover", objectPosition: "center" }}
       />
-    </header>
+    </div>
   );
 }

@@ -3,6 +3,7 @@ import Head from "next/head";
 import Header from "@/components/Header";
 import FullScreenImage from "@/components/FullScreenImage";
 import Footer from "@/components/Footer";
+import TextBlock from "@/components/TextBlock";
 
 export default function Home() {
   return (
@@ -18,8 +19,9 @@ export default function Home() {
       </Head>
 
       <main>
-        <div className="bg-primary-off-white relative z-10">
+        <div className="bg-primary-white relative z-10">
           <Header />
+          <TextBlock />
           <FullScreenImage data="/bird-bay.jpg" />
         </div>
         <Footer />

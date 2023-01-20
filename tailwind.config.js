@@ -10,6 +10,8 @@ module.exports = {
       "primary-navy": "#122641",
       "primary-rust": "#B34E22",
       "primary-orange": "#FF7F00",
+      "primary-green": "rgb(22, 163, 74)",
+      "primary-white": "#FFFFFF",
     },
     extend: {
       fontFamily: {
