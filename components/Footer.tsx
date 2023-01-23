@@ -12,10 +12,10 @@ export default function Footer() {
           height={288}
         />
       </div>
-      <div className="md:mx-6 mx-2 pb-12 flex sm:flex-wrap flex-nowrap md:flex-row flex-col sm:justify-between items-center md:gap-8 gap-2">
+      <div className="md:mx-6 mx-2 pb-12 flex sm:flex-wrap flex-nowrap md:flex-row flex-col sm:justify-between items-center md:gap-8 gap-4">
         <a
           href="#"
-          className="text-primary-white font-serif sm:text-4xl text-3xl hover:underline hover:underline-offset-4 hover:decoration-dotted"
+          className="text-primary-white font-serif sm:text-4xl text-3xl underline underline-offset-[6px] md:underline-offset-[12px] decoration-dotted md:decoration-wavy hover:decoration-solid"
         >
           hey@nowake.studio
         </a>
