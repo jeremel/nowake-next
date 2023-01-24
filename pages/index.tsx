@@ -3,7 +3,8 @@ import Head from "next/head";
 import Header from "@/components/Header";
 import FullScreenImage from "@/components/FullScreenImage";
 import Footer from "@/components/Footer";
-import TextBlock from "@/components/TextBlock";
+// import TextBlock from "@/components/TextBlock";
+import ContactSection from "@/components/ContactSection";
 
 export default function Home() {
   return (
@@ -19,11 +20,12 @@ export default function Home() {
       </Head>
 
       <main className="h-full">
-        <div className="bg-primary-white min-h-screen relative z-10">
-          <Header />
-          <TextBlock />
-          <FullScreenImage />
-        </div>
+        {/* <div className="bg-primary-white min-h-screen relative z-10"> */}
+        <Header />
+        <ContactSection />
+        {/* <TextBlock /> */}
+        <FullScreenImage />
+        {/* </div> */}
         <Footer />
       </main>
     </>
