@@ -18,7 +18,7 @@ export default function Home() {
         <link rel="icon" href="/NoWakeLogo_CircleEnclosed.png" />
       </Head>
 
-      <main>
+      <main className="h-full">
         <div className="bg-primary-white min-h-screen relative z-10">
           <Header />
           <TextBlock />
