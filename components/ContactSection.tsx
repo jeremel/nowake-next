@@ -4,23 +4,19 @@ export default function ContactSection() {
   return (
     <section className="bg-primary-white w-full md:h-screen h-full">
       <div className="h-full flex flex-wrap justify-between sm:gap-6 gap-0">
-        <div className="sm:h-auto h-[50%] md:max-w-[40%] w-full md:place-self-center place-self-end md:pl-6">
+        <div className="sm:h-auto h-[50%] md:max-w-[40%] w-full md:place-self-center place-self-end md:pl-6 sm:block hidden">
           <figure className="h-full w-full">
             <Image
               src="/bird-pole-cropped.jpg"
               alt="A seagull on a piling over the bay"
               width={525}
               height={700}
-              // style={{
-              //   objectFit: "contain",
-              //   objectPosition: "center",
-              // }}
               className="object-contain object-center"
             />
           </figure>
         </div>
 
-        <div className="sm:h-auto h-[50%] md:max-w-[55%] w-auto place-self-center md:pl-6 sm:px-8 px-6 pt-20 md:pt-0 pb-10 md:pb-0">
+        <div className="sm:h-auto h-[50%] md:max-w-[55%] w-auto place-self-center md:pl-6 sm:px-8 px-6 pt-20 md:pt-0 pb-20 md:pb-0">
           <h2 className="text-primary-rust lg:text-5xl md:text-4xl text-4xl font-sans font-bold mb-4 tracking-wide cursor-default">
             Get in touch:
           </h2>
