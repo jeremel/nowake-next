@@ -8,7 +8,7 @@ export default function Header() {
           <p className="text-primary-navy font-serif font-light lg:text-5xl md:text-4xl text-3xl tracking-wide cursor-default">
             <span className="text-primary-rust font-sans">No Wake</span> is a
             creative studio based out of southern New Jersey that designs &
-            builds websites for forward thinking companies who want their users
+            develops websites for forward thinking companies who want their users
             to have great experiences.
           </p>
         </div>
@@ -20,10 +20,6 @@ export default function Header() {
               priority
               width={525}
               height={700}
-              // style={{
-              //   objectFit: "contain",
-              //   objectPosition: "center",
-              // }}
               className="object-contain object-center"
             />
           </figure>
