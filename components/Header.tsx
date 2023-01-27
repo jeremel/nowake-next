@@ -8,14 +8,14 @@ export default function Header() {
           <p className="text-primary-navy font-serif font-light lg:text-5xl md:text-4xl text-3xl tracking-wide cursor-default">
             <span className="text-primary-rust font-sans">No Wake</span> is a
             creative studio based out of southern New Jersey that designs &
-            develops websites for forward thinking companies who want their users
-            to have great experiences.
+            develops websites for forward thinking companies who want their
+            users to have great experiences.
           </p>
         </div>
         <div className="sm:h-auto h-[50%] md:max-w-[40%] w-full md:place-self-center place-self-end md:pr-6">
           <figure className="h-full w-full">
             <Image
-              src="/header-bg-cropped.jpg"
+              src="/NoWake-3.png"
               alt="A picture of undisturbed New Jersey wetlands"
               priority
               width={525}

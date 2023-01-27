@@ -7,7 +7,7 @@ export default function ContactSection() {
         <div className="sm:h-auto h-[50%] md:max-w-[40%] w-full md:place-self-center place-self-end md:pl-6 sm:block hidden">
           <figure className="h-full w-full">
             <Image
-              src="/bird-pole-cropped.jpg"
+              src="/NoWake-4.png"
               alt="A seagull on a piling over the bay"
               width={525}
               height={700}
